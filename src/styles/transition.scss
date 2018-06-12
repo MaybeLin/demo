@@ -1,0 +1,77 @@
+//globl transition css
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/*fade*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*fade*/
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all .5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-move {
+  transition: all .5s;
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+
+}
+
+.flex-right {
+  flex-direction: row-reverse;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-cloumn {
+  flex-direction: column;
+}
+
+.flex-x-center {
+  justify-content: center;
+}
+
+.flex-y-center {
+  align-items: center;
+}
+
+.just-center {
+  justify-content: space-between;
+}
+
+.flex-y-end {
+  align-items: flex-end;
+}
+
+.shoushi {
+  cursor: pointer;
+}
